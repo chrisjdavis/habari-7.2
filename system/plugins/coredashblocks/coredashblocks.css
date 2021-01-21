@@ -1,0 +1,70 @@
+/*
+ * Name: CoreDashModules Stylesheet
+ * Author: Habari Community
+ * License: Apache License 2.0
+ */
+
+
+/*-- DASHBOARD - LATEST COMMENTS MODULE */
+
+.dashboard .block-type-latest_comments .item {
+	padding: 5px 0px 0px 0px;
+}
+
+.dashboard .block-type-latest_comments .item > span {
+	float: left;
+}
+
+.dashboard .block-type-latest_comments .titleanddate {
+
+	line-height: 16px;
+	max-width: 90%;
+}
+
+.dashboard .block-type-latest_comments .title {
+	overflow: hidden;
+	max-width: 100%;
+}
+
+.dashboard .block-type-latest_comments .date {
+	color: #999;
+}
+
+.dashboard .block-type-latest_comments ul {
+	margin: 0px;
+	line-height: 13px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	clear: left;
+	width: 100%;
+}
+
+.dashboard .block-type-latest_comments ul.commentauthors {
+	width: auto;
+}
+
+.dashboard .block-type-latest_comments ul.commentauthors li {
+	display: inline;
+	padding: 0px;
+	width: auto;
+}
+
+.dashboard .block-type-latest_comments .commentauthors a:hover {
+	opacity: 1;
+}
+
+.dashboard .block-type-latest_comments .item span.comments {
+	float: right;
+}
+
+.dashboard .block-type-latest_comments .comments {
+	line-height: 34px;
+	font-size: 24px;
+}
+
+/*-- DASHBOARD - POST TYPES AND STATUSES MODULE */
+.dashboard .block-type-post_types_statuses .modulecore{
+	overflow: auto;
+}
+
